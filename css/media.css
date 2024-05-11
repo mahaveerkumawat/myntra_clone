@@ -1,0 +1,329 @@
+/* Target devices with a maximum width of 767px (typically smartphones) */
+@media only screen and (max-width: 767px) {
+    .top-header {
+        max-width: 100%;
+    }
+    #mainarea{
+        display: block;
+    }
+    .main_width {
+        max-width: 100%;
+    }
+    .support_main{
+        display: none;
+    }
+    .main_start{
+        padding: 26px 50px;
+    }
+    .main_for_support{
+        height: auto;
+    }
+    .main_second{
+        height: auto;
+    }
+    .category_main{
+        padding: 10px 50px;
+    }
+    .category_main{
+        gap: 20px;
+        justify-content: center;
+    }
+    .navigations {
+        display: none;
+        position: relative;
+    }
+
+    .menu_icon {
+        display: block;
+    }
+
+    .menu_icon i {
+        margin-top: 7px;
+    }
+
+    .header-bg {
+        padding: 6px 17px;
+
+    }
+
+    .logo img {
+        margin-top: 5px;
+        width: 100px;
+    }
+
+    .hindi_text {
+        margin-left: 20px;
+    }
+
+    .main_mid_section {
+        min-height: 450px;
+        background: url(https://www.scdn.co/i/free/bubbles-mobile.svg) center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    }
+
+    .for_mobile {
+        display: none;
+    }
+
+    .main_content_box {
+        margin-top: 92px;
+    }
+
+    .Play_millions_text {
+        font-size: 44px;
+        padding: 0px 14px;
+    }
+
+    .main_content_box button {
+        margin-left: 10px;
+        font-size: 16px;
+        padding: 11px 23px;
+    }
+
+    .why_spo_main {
+        display: block;
+
+    }
+
+    .why_spo_first {
+        max-width: 100%;
+        display: flex;
+        padding: 20px 20px;
+        min-height: auto;
+    }
+
+    .why_spo_img {
+        background-size: 90px 90px;
+        margin: 0px;
+        background-position: center top;
+    }
+
+    .why_spo_img1 {
+        background-size: 90px 90px;
+        margin: 0px;
+        background-position: center top;
+    }
+
+    .first_text_spo {
+        text-align: start;
+    }
+
+    .first_text_spo_descriptions {
+        text-align: start;
+    }
+
+    .let_play_box {
+        /* display: none; */
+        width: auto;
+    }
+
+    .Ready {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer_start_box {
+        display: block;
+        padding-left: 20px;
+        padding-bottom: 100px;
+    }
+
+    .footer_second_box {
+        display: block;
+        width: auto;
+    }
+
+    .footer_second_last {
+        display: none;
+    }
+
+    .footer_last {
+        display: none;
+    }
+
+    .fifth_middle_section {
+        min-height: 419px;
+    }
+
+    .img_bg {
+
+        background-position: center top;
+    }
+
+    .third_middle_section {
+        display: none;
+    }
+
+    .not-for-dasktop {
+        display: block;
+    }
+
+    .responsive_first {
+        padding: 20px 0px;
+        /* background-color: #1d75de; */
+    }
+
+    .got_questions {
+        font-size: 28px;
+    }
+
+    .flextbosldfsdf {
+        display: block;
+    }
+
+    .main_content {
+        /* min-height: 450px !important; */
+        height: auto;
+        padding-left: 2%;
+    }
+
+    .flex_For_tab {
+        display: block;
+    }
+
+    .mobiletext{
+        display: block;
+    }
+    
+}
+
+
+
+@media (min-width:768px) {
+    #mainarea {
+        width: 100%;
+        text-align: center;
+        background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+        ;
+    }
+  
+
+
+
+    .abc {
+        display: none;
+    }
+}
+
+
+
+
+
+
+/* Target devices with a minimum width of 768px and a maximum width of 1024px (typically tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS styles specific to tablets */
+    .not-for-dasktop {
+        display: none;
+    }
+    .support_main{
+        display: none;
+    }
+    .main_start{
+        padding: 26px 50px;
+    }
+
+    .main_content {
+        /* min-height: 450px !important; */
+        height: auto;
+        padding-left: 2%;
+    }
+
+    .main_content_box {
+        margin-top: 100px;
+    }
+
+    .for_mobile {
+        display: none;
+    }
+
+    .main_mid_section {
+        min-height: 450px;
+    }
+
+    .main_width {
+        max-width: 1170px;
+    }
+
+    .let_play_box {
+        /* max-width: 1000px; */
+        width: auto;
+    }
+
+    .why_spo_main {
+        /* justify-content: center; */
+        /* display: none; */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .flextbosldfsdf {
+        display: block;
+    }
+
+    .top-header {
+        max-width: 100%;
+    }
+
+    .main_width {
+        max-width: 100%;
+    }
+
+    .footer_third_box {
+        display: none;
+    }
+
+    .footer_last {
+        padding: 0px 50px;
+    }
+
+    .footer_second_last {
+        padding: 0px 50px;
+    }
+
+    .footer_first_box {
+        margin-left: 50px;
+    }
+
+    .menu_icon {
+        display: block;
+    }
+
+    .navigations {
+        display: none;
+    }
+
+    .third_middle_section {
+        min-height: 246px;
+    }
+    #mainarea{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
