@@ -1366,7 +1366,7 @@ main {
  .navigations>nav>ul>li:hover .for_main_subnavigation{
     opacity: 1;
     visibility: visible;
-    transition: 3s;
+    transition: .3s;
  }
  .for_main_subnavigation ul{
     cursor: pointer;
